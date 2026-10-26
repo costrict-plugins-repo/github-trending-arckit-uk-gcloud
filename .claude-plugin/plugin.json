@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "arckit-uk-gcloud",
+  "displayName": "ArcKit UK G-Cloud Supplier Bid-Authoring Overlay",
+  "version": "6.18.2",
+  "defaultEnabled": false,
+  "description": "UK G-Cloud Supplier Bid-Authoring Overlay for ArcKit — 15 supplier-side commands that drive a G-Cloud 15 (RM1557.15) Digital Marketplace submission end to end: supplier profile, social value, lot questions, Procurement Act 2023 supplier declaration, service design, Service Definition Documents for Lots 1a, 1b, 2a, 2b and 3, pricing (1a/1b price formula, 2a/2b discount bands, Lot 3 DDaT rate card), security evidence, competitor benchmark, submission review, and GCA submission packaging. Recipe: uk-gcloud-submission. Requires arckit core plugin. PROPRIETARY — not covered by the repository MIT licence. EXPERIMENTAL.",
+  "author": {
+    "name": "TractorJuice",
+    "url": "https://github.com/tractorjuice"
+  },
+  "homepage": "https://arckit.org",
+  "repository": "https://github.com/tractorjuice/arckit-claude",
+  "license": "Proprietary",
+  "icon": "./assets/icon.svg",
+  "privacyPolicyUrl": "https://arckit.org/privacy.html",
+  "supportUrl": "https://github.com/tractorjuice/arc-kit/issues",
+  "documentationUrl": "https://github.com/tractorjuice/arckit-claude/tree/main/plugins/uk/gcloud#readme",
+  "termsOfServiceUrl": "https://github.com/tractorjuice/arckit-claude/blob/main/plugins/uk/gcloud/LICENSE",
+  "keywords": [
+    "architecture",
+    "governance",
+    "uk",
+    "gcloud",
+    "g-cloud",
+    "digital-marketplace",
+    "g-cloud-15",
+    "gca",
+    "government-commercial-agency",
+    "ccs",
+    "social-value",
+    "procurement-act-2023",
+    "procurement",
+    "supplier",
+    "sdd",
+    "bid"
+  ],
+  "dependencies": [
+    {
+      "name": "arckit",
+      "version": "=6.18.2"
+    }
+  ]
+}
